@@ -62,12 +62,12 @@ export default function App_Showcase_Section2() {
                                     <img className="img01" src="/assets/images/asc3.png" alt="Image" />
                                     <img
                                         className="img02 wow animate__animated      animate__fadeInLeft"
-                                        src="/assets/images/asc4.png"
+                                        src="/assets/images/phone_face.png"
                                         alt="Image"
                                     />
                                     <img
                                         className="img03 wow animate__animated      animate__fadeInRight"
-                                        src="/assets/images/asc5.png"
+                                        src="/assets/images/phone_back.png"
                                         alt="Image"
                                     />
                                     <img
