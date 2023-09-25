@@ -14,7 +14,10 @@ import Pet_Section3 from "@/components/sections/homepage/Pet/Pet_Section3";
 export default function HomeDating() {
     return (
         <>
-            <Layout headerClass="is-transparent" siteContentClass="pt0 pb0">
+            <Layout headerClass="is-transparent" siteContentClass="pt0 pb0"
+                    pageTitle={'Explore the best offers & save in Dubai!'}
+                    pageTitleDesc={'Download the Dune Deals app and start saving on your favorite brands.'}
+            >
                 <Dating_Section1 />
                 <App_Showcase_Section2 />
                 <Pet_Section3 />
