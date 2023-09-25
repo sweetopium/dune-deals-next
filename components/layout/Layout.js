@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import {useEffect} from 'react';
 import BackToTop from '../elements/BackToTop';
 import SwitchDarkLight from '../elements/SwitchDarkLight';
 
@@ -6,7 +6,17 @@ import Footer1 from './Footer/Footer1';
 import Header1 from './Header/Header1';
 import PageHead from './PageHead';
 
-export default function Layout({ headerLayout, footerLayout, children, siteContentClass, pageTitle, pageTitleSub, pageTitleDesc, pageTitleBtn, headerClass }) {
+export default function Layout({
+                                   headerLayout,
+                                   footerLayout,
+                                   children,
+                                   siteContentClass,
+                                   pageTitle,
+                                   pageTitleSub,
+                                   pageTitleDesc,
+                                   pageTitleBtn,
+                                   headerClass
+                               }) {
     useEffect(() => {
 
         const WOW = require('wowjs');
@@ -17,6 +27,10 @@ export default function Layout({ headerLayout, footerLayout, children, siteConte
     })
     return (
         <>
+            <noscript>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFKW7Z54"
+                        height="0" width="0" style="display:none;visibility:hidden" />
+            </noscript>
 
             <div id="wrapper">
                 <main id="main" className="site-main">
@@ -28,7 +42,8 @@ export default function Layout({ headerLayout, footerLayout, children, siteConte
                                     {pageTitle && <h1 className="title">{pageTitle}</h1>}
                                     {pageTitleDesc && <p className="desc">{pageTitleDesc}</p>}
                                     {pageTitleBtn &&
-                                        <div className="button-wrap"><a href="#" className="button fullfield" title="Opportunities">{pageTitleBtn}</a></div>
+                                        <div className="button-wrap"><a href="#" className="button fullfield"
+                                                                        title="Opportunities">{pageTitleBtn}</a></div>
                                     }
                                 </div>
                             </div>
@@ -42,8 +57,8 @@ export default function Layout({ headerLayout, footerLayout, children, siteConte
                 </main>
 
 
-                {!footerLayout && < Footer1 />}
-                {footerLayout == 1 ? < Footer1 /> : null}
+                {!footerLayout && < Footer1/>}
+                {footerLayout == 1 ? < Footer1/> : null}
 
                 {/*<BackToTop />*/}
                 {/*<SwitchDarkLight />*/}

@@ -13,7 +13,8 @@ export default function Dating_Section1() {
                                 </div>
                                 <div className="apps m220">
                                     <img src="/assets/images/app-store.png" alt="App Store"/>
-                                    <a href="https://dunedeals.onelink.me/c2za/nkckh1u4" style={{marginLeft: 20}}>
+                                    <a href="https://dunedeals.onelink.me/c2za/nkckh1u4" className="android-app-btn"
+                                       style={{marginLeft: 20}}>
                                         <img src="/assets/images/google-play.png" alt="Google Play"/>
                                     </a>
                                 </div>
