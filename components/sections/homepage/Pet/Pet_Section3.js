@@ -12,7 +12,10 @@ export default function Pet_Section3() {
                                         your savings journey</h2>
                                 </div>
                                 <div className="apps m220">
+                                    <a href="https://dunedeals.onelink.me/c2za/nkckh1u4" className="android-app-btn"
+                                       style={{marginLeft: 20}}>
                                     <img src="/assets/images/app-store.png" alt="App Store"/>
+                                    </a>
                                     <a href="https://dunedeals.onelink.me/c2za/nkckh1u4" className="android-app-btn"
                                        style={{marginLeft: 20}}>
                                         <img src="/assets/images/google-play.png" alt="Google Play"/>
